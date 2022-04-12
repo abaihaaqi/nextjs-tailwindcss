@@ -4,6 +4,7 @@ import Layout from "../components/layouts";
 export default function AnotherPage() {
   const router = useRouter()
 
+  // * This object are for meta tags generator
   const metaContent = {
     url: 'another-page',
     title: 'Another page',

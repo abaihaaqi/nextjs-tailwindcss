@@ -3,7 +3,13 @@ import MetaTags from "../utils/MetaTags"
 export default function Layout({ children, metaContent }) {
   return (
     <>
-      {/* This is head for meta tags */}
+      {/* Meta tag generator
+        * props:
+        * - url
+        * - title
+        * - description
+        * - img
+        */}
       <MetaTags {...metaContent} />
       <main>
         {children}

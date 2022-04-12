@@ -2,6 +2,10 @@ import Head from 'next/head'
 
 export default function MetaTags({ url, title, description, img }) {
   
+  /* Most of the content is self explanatory and hardcoded
+   * Think of the hardcoded content is for global tags that doesn't change per-page
+   */
+
   const basePath = 'https://nextjs-tailwindcss-abaihaaqi.vercel.app'
 
   const defaultOpt = {
