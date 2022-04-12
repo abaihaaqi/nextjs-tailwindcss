@@ -21,6 +21,8 @@ fontSize: {
 }
 ```
 
+Delete this code if you want default tailwind styling
+
 # Getting Started
 
 1. [Use this template](https://github.com/abaihaaqi/nextjs-tailwindcss/generate) :
@@ -32,7 +34,5 @@ fontSize: {
 ![Clone repository](./public/clone-repo.png)
 
 3. Start working your project
-
-Delete this code if you wan default tailwind styling
 
 ## [Demo template &#8599;](nextjs-tailwindcss-flax.vercel.app)
