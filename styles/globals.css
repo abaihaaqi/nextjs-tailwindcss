@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+@layer base {
+  html,
+  body {
+    @apply bg-black text-white
+  }
+
   h1 {
     @apply text-2xl
   }
@@ -14,5 +19,13 @@
   }
   h4 {
     @apply text-md
+  }
+
+  a {
+    @apply text-blue-300 hover:text-blue-200 hover:underline transition-all
+  }
+
+  button {
+    @apply bg-blue-300 hover:bg-blue-200 rounded-lg px-3 py-2 text-black transition-all
   }
 }
